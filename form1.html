@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form action="">
+        <p>Enter First Name:</p>
+        <input type="text" name="fname" placeholder="Enter your first name"><br>
+        <p>Enter Middle Name:</p>
+        <input type="text" name="mname" placeholder="Enter your middle name"><br>
+        <p>Enter Last Name:</p>
+        <input type="text" name="lname" placeholder="Enter your last name"><br><br>
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+    <h1>
+        <font color="black" align="center">Please Enter The Following Bio Data</font>
+    </h1>
+    <form name="fome1" method="get" action="">
+        First Name: <input type="text" name="fname" size="15" maxlength="25" placeholder="Enter first name....."><br>
+        Last Name: <input type="text" name="sname" size="15" maxlength="25" placeholder="Enter last name....."><br>
+        Nationality: <input type="text" name="country" size="15" maxlength="15"
+            placeholder="Enter nationality....."><br>
+        Phone Number: <input type="number" name="Phone" size="15" maxlength="12" placeholder="Enter phone no........."><br>
+        Password: <input type="password" name="pass" size="20" maxlength="25"><br><br>
+        <p><b>Select Country:</b></p>
+        Jordan <input type="radio" name="country" checked><br>
+        Qatar <input type="radio" name="country" checked><br>
+        Yemen <input type="radio" name="country" checked><br>
+        <p><b>Select Language:</b></p>
+        English <input type="radio" name="lang" checked><br>
+        Arabic <input type="radio" name="lang" checked><br>
+        French <input type="radio" name="lang" checked><br>
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+    <form>#Form 1:
+        <input type="radio" name="choice" value="one">Yes
+        <input type="radio" name="choice" value="two">No
+    </form>
+    <hr color="red" size="10">
+    <form>#Form 2:
+        <input type="radio" name="choice" value="three" checked>Yes
+        <input type="radio" name="choice" value="four">No
+        <input type="button" name="button" value="Sumbit">
+    </form>
+    <div align="center"><br><br>
+        <form>
+            <font color="red">
+                <h1>Press here to see baby crying:</h1>
+            </font><br>
+            <input type="button" name="press" value="press"><br><br>
+            <font color="blue">
+                <h1>Click here to see baby shouting:</h1><br>
+            </font>
+            <input type="button" value="Click"><br><br>
+            <font color="green">
+                <h1>Hit here to see baby eating:</h1>
+            </font><br>
+            <input type="button" value="Hit"><br><br>
+            <h1>Press here to submit form:</h1>
+            <input type="submit" value="submit Data"><br><br>
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <form >
+        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNrjRyM-2612djPKaZeScYyYJSSD6BxpU5Kg&s" ><br>
+        <input type="file" size="60" maxlength="50">
+    </form>
+    <form>
+        <h3>
+            <font color="forestgreen">
+                Please attach your file here for uploading
+            </font>
+        </h3><br>
+        My<font color="red">SERVER...</font><br>
+        <input type="File" name="myfile" size="30"><br><br>
+        <span>Enter text :</span><br>
+        <textarea placeholder="Enter text" name="comments" cols="40" rows="20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, alias!</textarea><br><br>
+        <select name="list" size="4" multiple>
+            <option>Delhi</option>
+            <option>London</option>
+            <option selected>Tokyo</option>
+            <option>Paris</option>
+            <option>LA</option>
+            <option>KL</option>
+        </select><br><br>
+        <input type="submit" value="SubmitFile">
+    </form>
+    <div align="left">
+        <form action="" style="background-color: burlywood;">
+            <caption><strong>There are eleven different types of form elements:</strong></caption><br><br>
+            <span>Button :</span>
+            <input type="button" name="button" value="Button"><br><br>
+            <span>Checkbox :</span>
+            <input type="checkbox" name="checkbox" value="check"><br><br>
+            <span>FileUpload :</span>
+            <input type="file" size="30"><br><br>
+            <span>Hidden :</span>
+            <input type="hidden" name="button" value="hid"><br><br>
+            <span>Country Code:</span>
+            <select>
+                <option selected>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+                <option>+95</option>
+                <option>+96</option>
+            </select>
+            <span>Phone no. :</span>
+            <input type="number" name="phone" maxlength="10" size="10"><br><br>
+            <span>Password :</span>
+            <input type="password" name="pass" value="" required><br><br>
+            <span>Radio :</span>
+            <input type="radio" name="select" value="select"><br><br>
+            <span>Reset object:</span>
+            <input type="reset" name="reset" value="Reset"><br><br>
+            <span>Select object :</span>
+            <select>
+                <option></option>
+            </select><br><br>
+            <span>Submit object :</span>
+            <input type="submit" name="sbmit" value="Submit Query"><br><br>
+            <span>Text :</span>
+            <input type="text" name="text" value="" pattern="[A-Za-z]{3,}"><br><br>
+            <span>Text area :</span>
+            <textarea name="comments" cols="20" rows="10"></textarea>
+        </form>
+    </div>
+</body>
+</html>
